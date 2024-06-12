@@ -23,7 +23,7 @@ public interface GrimAbstractAPI {
     @Deprecated
     void setServerName(String name);
 
-    void isPlayerExempted(Player player);
+    boolean isPlayerExempted(Player player);
 
     void exemptPlayer(Player player);
 
