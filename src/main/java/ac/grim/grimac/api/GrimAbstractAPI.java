@@ -23,6 +23,12 @@ public interface GrimAbstractAPI {
     @Deprecated
     void setServerName(String name);
 
+    void isPlayerExempted(Player player);
+
+    void exemptPlayer(Player player);
+
+    void unexemptPlayer(Player player);
+
     /**
      * Used to create or replace variables, such as %player%. This only works
      * for player related messages.
