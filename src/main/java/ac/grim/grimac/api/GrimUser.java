@@ -23,6 +23,10 @@ public interface GrimUser {
 
     boolean isVanillaMath();
 
+    boolean isGrimDisabled();
+
+    void setGrimDisabled(boolean value);
+
     void updatePermissions();
 
     Collection<? extends AbstractCheck> getChecks();
